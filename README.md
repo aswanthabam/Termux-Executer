@@ -5,7 +5,7 @@ With this you can simpy execute c,c++ programs in termux. You can execute progra
 ### Installation
 
 ```sh
-curl https://github.com/aswanthabam/Termux-Executer/blob/main/install > install.sh
+curl https://github.com/aswanthabam/Termux-Executer/blob/main/install.sh > install.sh
 chmod +x install.sh
 ./install.sh
 ```
