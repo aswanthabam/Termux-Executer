@@ -1,0 +1,4 @@
+chmod +x ./script && cp ./script /data/data/com.termux/files/usr/bin/run
+echo "Installed successfully: run 'run' to start"
+echo "Help:-"
+exec
