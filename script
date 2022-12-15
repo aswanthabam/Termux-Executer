@@ -6,6 +6,8 @@ if [[ "$1" == "cpp" ]]; then
     c++ $2 -o outfile.out && mv outfile.out ~/outfile.out && chmod +x ~/outfile.out && cd ~ && ./outfile.out;
 elif [[ "$1" == "c" ]]; then
     gcc $2 -o outfile.out && mv outfile.out ~/outfile.out && chmod +x ~/outfile.out && cd ~ && ./outfile.out;
+elif [[ "$1" == "java" ]]; then
+    javac $2 && java ${2::-5};
 else
     echo "Invalid syntext executor [language] [file]"
 fi
